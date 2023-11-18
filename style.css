@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+
+button {
+    font: size 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    background-color: rgb(1, 255, 119);
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(1, 255, 119);
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento {
+    color: rgb(151, 148, 148);
+}
+
+
+header {
+    /*background-color: rgb(245, 245, 245);*/
+    background-color: white;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+header a:hover {
+    color: red;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/inicio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#hero h1 {
+    color: white;
+}
+
+#hero button {
+    font-size: 1.75em;
+}
+
+#somos-gruas .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-servicios {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-servicios .container {
+    padding: 150px 12px;
+
+}
+
+#nuestros-servicios h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-servicios .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/1.jpg");
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/5.jpg");
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/14.jpg");
+
+}
+
+#contacte-ahora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(30, 30, 30);
+    color: white;
+    height: 50vh;
+}
+
+.contacto {
+    /* min-width: 500px;
+    display: flex;
+    justify-content: space-around;*/
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacto a {
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    margin: 8px;
+}
+
+.contacto a:hover {
+    transform: scale(1.2);
+}
+
+.contacto a.fa-instagram:hover {
+    background-image: linear-gradient(45deg, #405de6, #f53f7b, #ffdd55);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contacto a.fa-whatsapp:hover {
+    background-color: white;
+    color: #25d366;
+}
+
+.contacto a.fa-phone:hover {
+    background-color: white;
+    color: #314652;
+}
+
+
+.contacto a.fa-envelope:hover {
+    background-color: white;
+    color: #314652;
+}
+
+
+footer {
+    justify-content: flex-end;
+    background-color: white;
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+/* FOOTER CON UNA ALTURA DE 100PX */
+footer .container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 850px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+
+    }
+
+    #hero h1 {
+        font-size: 5em;
+    }
+
+    #somos-gruas .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-gruas .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-gruas h2 {
+        margin-top: 0px;
+    }
+
+    #somos-gruas .img-container {
+        background-image: url("media/somos.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 600px;
+    }
+
+    #nuestros-servicios .servicios {
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-servicios p {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-servicios h2 {
+        font-size: 4em;
+    }
+
+    #nuestros-servicios h3 {
+        margin-top: 0;
+
+    }
+
+    #nuestros-servicios .carta {
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .carta:first-child {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/1.jpg");
+    }
+
+    .carta:nth-child(2) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/5.jpg");
+    }
+
+    .carta:nth-child(3) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/14.jpg");
+
+    }
+
+
+    #final h2 {
+        font-size: 5em;
+    }
+
+    #final button {
+        font-size: 2em;
+    }
+
+    .contacto a {
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin: 30px;
+    }
+}
