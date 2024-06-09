@@ -165,14 +165,19 @@ header a:hover {
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("media/1.jpg");
 }
-
 .carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/15.jpeg");
+}
+
+.carta:nth-child(3) {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("media/5.jpg");
 }
 
-.carta:nth-child(3) {
+.carta:nth-child(4) {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("media/14.jpg");
@@ -347,10 +352,16 @@ footer .container {
     .carta:nth-child(2) {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("media/5.jpg");
+                rgba(0, 0, 0, 0.5)), url("media/15.jpeg");
     }
 
     .carta:nth-child(3) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/5.jpg");
+    }
+
+    .carta:nth-child(4) {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)), url("media/14.jpg");
