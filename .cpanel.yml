@@ -1,6 +1,6 @@
 ---
 deployment:
-  task:
+  tasks:
     - export DEPLOYPATH=/home1/jaiberla/public_html/
     - /bin/cp -R media $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
