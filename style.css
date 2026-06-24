@@ -174,7 +174,7 @@ header a:hover {
 .carta:nth-child(3) {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("");
+            rgba(0, 0, 0, 0.5)), url("media/carta3.jpg");
 }
 
 .carta:nth-child(4) {
@@ -308,7 +308,7 @@ footer .container {
     }
 
     #somos-gruas .img-container {
-        background-image: url("media/somos.JPG");
+        background-image: url("media/somos.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -358,13 +358,13 @@ footer .container {
     .carta:nth-child(3) {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("media/5.jpg");
+                rgba(0, 0, 0, 0.5)), url("media/carta3.jpg");
     }
 
     .carta:nth-child(4) {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("media/14.jpeg");
+                rgba(0, 0, 0, 0.5)), url("media/14.jpg");
 
     }
 
